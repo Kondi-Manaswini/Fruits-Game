@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+
+<head>
+    <title>Fruits Game</title>
+    <link rel="shortcut icon" type="image/png" href="images/Favicon.png" />
+    <link rel="stylesheet" href="styling.css">
+    <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/themes/smoothness/jquery-ui.css">
+</head>
+
+<body>
+    <div id="container">
+
+        <div id="logo">
+            <img src="images/LogoFruit.png">
+            <img src="images/LogoNinja.png">
+        </div>
+
+        <div id="topBar">
+            <div id="trialsLeft"></div>
+            <div id="score">
+                Score: <span id="scorevalue">0</span>
+            </div>
+        </div>
+
+        <div id="fruitsContainer">
+            <img id="fruit1" class="fruit">
+        </div>
+        <div id="gameOver">
+            <img src="images/GameOver.png">
+        </div>
+
+        <div id="startreset">Start Game</div>
+
+    </div>
+    <audio id="slicesound">
+        <source src="audio/SliceFruit.mp3">
+        </source>
+        <source src="audio/SliceFruit.ogg">
+        </source>
+    </audio>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
+    <script src="jquery.js"></script>
+</body>
+
+</html>
